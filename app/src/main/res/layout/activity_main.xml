@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tecii.android.practica4.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cantidad" />
+    <EditText
+        android:id="@+id/txtDinero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"/>
+    <Button
+        android:id="@+id/txtConver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convertir"
+        android:onClick="convertir" />
+    <TextView
+        android:id="@+id/txt100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b100" />
+    <TextView
+        android:id="@+id/txt50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b50"
+         />
+    <TextView
+        android:id="@+id/txt20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b20"/>
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m5"
+        />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m2"/>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m1" />
+    <TextView
+        android:id="@+id/txt50c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m50"/>
+    <TextView
+        android:id="@+id/txt20c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m20"/>
+    <TextView
+        android:id="@+id/txt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m10" />
+</LinearLayout>

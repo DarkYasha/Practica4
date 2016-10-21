@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Practica 4</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="convertir">Convertir</string>
+    <string name="b100">Billetes 100</string>
+    <string name="b50">Billetes 500</string>
+    <string name="b20">Billetes 20</string>
+    <string name="m5">Monedas 5</string>
+    <string name="m2">Monedas 2</string>
+    <string name="m1">Monedas 1</string>
+    <string name="m50">Centavos 50</string>
+    <string name="m20">Centavos 20</string>
+    <string name="m10">Centavos 10</string>
+</resources>
